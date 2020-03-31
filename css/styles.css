@@ -48,4 +48,14 @@ aside {
 .conteudo {
     width: 800px;
     overflow: auto;
+    position: relative;
+}
+
+.marca {
+    position: absolute;
+    background: darkgoldenrod;
+    width: 40px;
+    height: 40px;
+    top: 10px;
+    left: 10px;
 }
