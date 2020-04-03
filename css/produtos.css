@@ -71,4 +71,107 @@
     margin-left: 2px;
 }
 
+/*Orçamento*/
+.orcamento {
+    background: #000;
+    width: 100%;
+    margin-top: 60px;
+    padding: 40px 0;
+}
 
+.orcamento h2 {
+    color: #fec63e;
+    margin-bottom: 20px;
+}
+
+.orcamento h2::after {
+    width: 60px;
+    height: 3px;
+    background: #fec63e;
+    margin: 5px auto 0px auto;
+}
+
+.form {
+    padding-right: 60px;
+}
+
+.form label {
+    display: block;
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 4px;
+}
+
+.form input {
+    display: block;
+    width: 100%;
+    background: transparent;
+    border: 4px #fec63e solid;
+    color: #fff;
+    padding: 7px 10px;
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+}
+
+.form textarea {
+    display: block;
+    width: 100%;
+    background: transparent;
+    border: 4px #fec63e solid;
+    color: #fff;
+    padding: 7px 10px;
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+    resize: vertical;
+    overflow: auto;
+}
+
+.form button {
+    background: transparent;
+    padding: 7px 40px;
+}
+
+.orcamento-dados {
+    color: #fff;
+}
+
+.orcamento-dados h3 {
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #fec63e;
+    font-weight: bold;
+}
+
+.orcamento-dados span {
+    display: block;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 30px;
+}
+
+.dados_email{
+    margin-bottom: 40px;
+}
+
+.orcamento-dados ul {
+    padding-right: 60px;
+}
+
+.orcamento-dados ul li {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    padding: 10px 15px;
+}
+
+.orcamento-dados ul li:nth-child(odd){
+    background: #1d1d1d;
+}
+
+.orcamento-dados p {
+    margin: 8px 0;
+}
