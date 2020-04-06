@@ -172,5 +172,17 @@
 	padding: 5px 10px;
 }
 
+/* PORTFOLIO */
+.quote_clientes  cite{
+	position: absolute;
+	left: 89px;
+}
 
+/* CONTATO */
+.contato{
+	margin-bottom: 20px;
+}
+.contato_form {
+	padding-right: 0px;
+}
 }
