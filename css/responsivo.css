@@ -1,7 +1,25 @@
 /*Para IPAD*/
 @media only screen and (min-width: 788px) and (max-width: 979px){
 
+/* Qualidade Home */
+.qualidade:after{
+	right: 66px;
+}
 
+.qualidade_lista li {
+	padding: 0 10px;
+}
+
+/* Footer */
+
+.footer_redes ul li a {
+	padding: 6px;
+}
+
+
+.footer_redes ul li a img{
+	height: 26px;
+}
 
 }
 
@@ -42,8 +60,32 @@
 /* INTRODUÇÃO */
 .introducao {
 	margin-top: 0;
-	padding-top: 20px;
+	padding-top: 40px;
 	background: url("../img/bg-mobile.jpg");
+}
+
+.introducao h1 {
+	font-size: 36px;
+}
+
+/* HOME */
+.call {
+	padding-top: 20px;
+}
+
+.produtos {
+	padding: 20px 0;
+}
+
+.portifolio {
+	padding: 20px 0;
+}
+.qualidade {
+	padding: 20px 0;
+}
+
+.qualidade:after{
+	display: none;
 }
 
 }
