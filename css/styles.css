@@ -72,6 +72,12 @@ img {
     margin: 8px 0 ;
 }
 
+.anti-spam {
+    visibility: hidden;
+    position: absolute;
+    height: 0px;
+}
+
 /* Header */
 
 .header {
@@ -437,4 +443,12 @@ img {
     opacity: 1;
     transform: none;
     transition: opacity 800ms, transform 800ms;
+}
+
+#form-sucesso {
+    color: #31aa39
+}
+
+#form-erro {
+    color: #f64540;
 }
