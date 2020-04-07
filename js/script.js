@@ -13,3 +13,7 @@ if (window.SimpleSlide) {
     time: 5000,
   });
 }
+
+if (window.SimpleAnime) {
+  new SimpleAnime();
+}
