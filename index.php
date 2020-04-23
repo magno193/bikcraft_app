@@ -15,7 +15,7 @@
   <meta name="viewport" content="width=device-wifth, initial-scale=1">
 
   <link rel="shortcut icon" href="favicon.ico">
-  <link rel="stylesheet" href="./css/styles-raw.css">
+  <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>style.css">
 
   <script>document.documentElement.classList.add("js");</script>
 </head>
