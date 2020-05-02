@@ -1,129 +1,105 @@
-<!-- HEADER WORDPRESS -->
-<?php get_header(); ?>
-<!-- HEADER WORDPRESS -->
+<?php
+// Template Name: Produtos
+get_header();
+?>
 
-  <!-- introducao -->
-  <section class="introducao-interna interna_produtos">
-    <div class="container">
-      <h1 class="fadeInDown" data-anime="400">Produtos</h1>
-      <p class="fadeInDown" data-anime="800">conheça todos os nossos produtos</p>
-    </div>
-  </section>
-  <!-- fecha introducao -->
+		<section class="introducao-interna interna_produtos">
+			<div class="container">
+				<h1>Produtos</h1>
+				<p>conheça todos os nossos produtos</p>
+			</div>
+		</section>
 
-  <!-- produtos -->
-  <section class="container produto_item fadeInDown" data-anime="1200">
-    <div class="grid-11">
-      <img src="img/produtos/bikcraft-passeio-1.jpg" alt="Bikcraft passeio">
-      <h2>Passeio</h2>
-    </div>
-    <div class="grid-5 produto_icone">
-      <img src="img/produtos/passeio.svg" alt="Bikcraft passeio">
-    </div>
-    <div class="grid-8">
-      <img src="img/produtos/bikcraft-passeio-2.jpg" alt="Bikcraft passeio">
-    </div>
-    <div class="grid-8 produto_info">
-      <p>No mundo atual, a contínua expansãop de nossa tividade cumpre um papel essencial na fórmula da gestão inovadora
-        da qual fazemos parte.</p>
-      <ul>
-        <li>Conforto</li>
-        <li>Velocidade</li>
-        <li>Design</li>
-        <li>Versatilidade</li>
-      </ul>
-    </div>
-  </section>
+		<section class="container produto_item animar-interno">
+			<div class="grid-11">
+				<img src="img/produtos/bikcraft-passeio-1.jpg" alt="Bikcraft Passeio">
+				<h2>Passeio</h2>
+			</div>
+			<div class="grid-5 produto_icone"><img src="img/produtos/passeio.png" alt="Icone Passeio"></div>
+			<div class="grid-8"><img src="img/produtos/bikcraft-passeio-2.jpg" alt="Bikcraft Passeio"></div>
+			<div class="grid-8 produto_info">
+				<p>Muito melhor do que passear pela orla a vidros fechados. A Bikcraft Passeio é uma bicicleta que une conforto e praticidade para o seu dia a dia. Você nunca mais vai querer saber de outra.</p>
+				<ul>
+					<li>Conforto</li>
+					<li>Praticidade</li>
+					<li>Design</li>
+					<li>Versatilidade</li>
+				</ul>
+			</div>
+		</section>
 
-  <section class="container produto_item fadeInDown" data-anime="1200">
-    <div class="grid-11">
-      <img src="img/produtos/bikcraft-esporte-1.jpg" alt="Bikcraft esporte">
-      <h2>Esporte</h2>
-    </div>
-    <div class="grid-5 produto_icone">
-      <img src="img/produtos/esporte.svg" alt="Bikcraft esporte">
-    </div>
-    <div class="grid-8">
-      <img src="img/produtos/bikcraft-esporte-2.jpg" alt="Bikcraft esporte">
-    </div>
-    <div class="grid-8 produto_info">
-      <p>No mundo atual, a contínua expansãop de nossa tividade cumpre um papel essencial na fórmula da gestão inovadora
-        da qual fazemos parte.</p>
-      <ul>
-        <li>Conforto</li>
-        <li>Velocidade</li>
-        <li>Design</li>
-        <li>Versatilidade</li>
-      </ul>
-    </div>
-  </section>
+		<section class="container produto_item">
+			<div class="grid-11">
+				<img src="img/produtos/bikcraft-esporte-1.jpg" alt="Bikcraft Esporte">
+				<h2>Esporte</h2>
+			</div>
+			<div class="grid-5 produto_icone"><img src="img/produtos/esporte.png" alt="Icone Esporte"></div>
+			<div class="grid-8"><img src="img/produtos/bikcraft-esporte-2.jpg" alt="Bikcraft Esporte"></div>
+			<div class="grid-8 produto_info">
+				<p>Mais rápida do que Forrest Gump, ninguém vai pegar você. A Bikcraft Esporte é uma bicicleta desenhada para a máxima performance. O seu desenpenho supera qualquer uma da categoria.</p>
+				<ul>
+					<li>Precisão</li>
+					<li>Velocidade</li>
+					<li>Design</li>
+					<li>Versatilidade</li>
+				</ul>
+			</div>
+		</section>
 
-  <section class="container produto_item fadeInDown" data-anime="1200">
-    <div class="grid-11">
-      <img src="img/produtos/bikcraft-retro-1.jpg" alt="Bikcraft retrô">
-      <h2>Retrô</h2>
-    </div>
-    <div class="grid-5 produto_icone">
-      <img src="img/produtos/retro.svg" alt="Bikcraft retrô">
-    </div>
-    <div class="grid-8">
-      <img src="img/produtos/bikcraft-retro-2.jpg" alt="Bikcraft retrô">
-    </div>
-    <div class="grid-8 produto_info">
-      <p>No mundo atual, a contínua expansãop de nossa tividade cumpre um papel essencial na fórmula da gestão inovadora
-        da qual fazemos parte.</p>
-      <ul>
-        <li>Conforto</li>
-        <li>Velocidade</li>
-        <li>Design</li>
-        <li>Versatilidade</li>
-      </ul>
-    </div>
-  </section>
-  <!-- fecha produtos -->
+		<section class="container produto_item">
+			<div class="grid-11">
+				<img src="img/produtos/bikcraft-retro-1.jpg" alt="Bikcraft Retrô">
+				<h2>Retrô</h2>
+			</div>
+			<div class="grid-5 produto_icone"><img src="img/produtos/retro.png" alt="Icone Retrô"></div>
+			<div class="grid-8"><img src="img/produtos/bikcraft-retro-2.jpg" alt="Bikcraft Retrô"></div>
+			<div class="grid-8 produto_info">
+				<p>O passado volta para lembrarmos o que devemos fazer no futuro. A Bikcraft Retrô é uma bicicleta estiloza, feita para você que gosta do clássico, mas que não abre mão do conforto.</p>
+				<ul>
+					<li>Conforto</li>
+					<li>Velocidade</li>
+					<li>Design</li>
+					<li>Versatilidade</li>
+				</ul>
+			</div>
+		</section>
 
-  <!-- orçamento -->
-  <section class="orcamento fadeInDown" data-anime="1200">
-    <div class="container">
-      <h2 class="subtitulo">Orçamento</h2>
-      <form id="form_orcamento" method="POST" action="./enviar.php" class="form grid-8 formphp">
-        <label for="nome">Nome</label>
-        <input type="text" id="nome" name="nome" required>
-        <label for="email">E-mail</label>
-        <input id="email" name="email" type="email" required>
-        <label for="telefone">Telefone</label>
-        <input type="text" id="telefone" name="telefone">
-  
-        <label class="anti-spam">Se você não é um robô, deixe em branco.</label>
-        <input type="text" class="anti-spam" name="leaveblank">
-        <label class="anti-spam">Se você não é um robô, não mude este campo.</label>
-        <input type="text" class="anti-spam" name="dontchange" value="http://">
-  
-        <label for="espec">Especificações</label>
-        <textarea id="espec" name="espec" required></textarea>
-        <button id="enviar" name="enviar" type="submit" class="btn">Enviar</button>
-      </form>
+		<section class="orcamento">
+			<div class="container">
+				<h2 class="subtitulo">Orçamento</h2>
+				<form action="enviar.php" method="post" name="form" class="formphp form grid-8">
+					<label for="nome">Nome</label>
+					<input id="nome" name="nome" type="text">
+					<label for="email">E-mail</label>
+					<input id="email" name="email" type="text">
+					<label for="telefone">Telefone</label>
+					<input id="telefone" name="telefone" type="text">
 
-      <div class="orcamento-dados grid-8">
-        <h3>Dados</h3>
-        <span>+55 21 93223 3232</span>
-        <span>orcamento@bikcraft.com</span>
-        <h3>Monte a sua Bikcraft</h3>
-        <p>Escolha as especificações</p>
-        <ul>
-          <li>- Cores</li>
-          <li>- Estilo</li>
-          <li>- Medidas</li>
-          <li>- Acessórios</li>
-          <li>- E outros</li>
-        </ul>
-      </div>
-    </div>
-  </section>
-  <!-- fecha orçamento -->
+					<label class="nao-aparece">Se você não é um robô, deixe em branco.</label>
+					<input type="text" class="nao-aparece" name="leaveblank">
+					<label class="nao-aparece">Se você não é um robô, não mude este campo.</label>
+					<input type="text" class="nao-aparece" name="dontchange" value="http://" >
 
-  <!-- FOOTER WORDPRESS -->
-  <?php get_footer(); ?>
-  <!-- FOOTER WORDPRESS -->
+					<label for="mensagem">Especificações</label>
+					<textarea name="mensagem" id="mensagem"></textarea>
 
-</html>
+					<button id="enviar" name="enviar" type="submit" class="btn">Enviar</button>
+				</form>
+				<div class="orcamento_dados grid-8">
+					<h3>Dados</h3>
+					<span>+55 21 9999-9999</span>
+					<span>orcamento@bikcraft.com</span>
+					<h3>Monte a sua Bikcraft</h3>
+					<p>Escolha as especificações:</p>
+					<ul>
+						<li>- Cores</li>
+    				<li>- Estilo</li>
+    				<li>- Medidas</li>
+   					<li>- Acessórios</li>
+    				<li>- E Outros</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+
+<?php get_footer(); ?>
