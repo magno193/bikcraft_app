@@ -1,43 +1,6 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-
-<head>
-  <meta charset="UTF-8">
-  <title>Bikcraft - Conheça as linhas Passeio, Retrô e Esporte</title>
-  
-  <meta name="description" content="Compre a sua bicileta personalizada na Bikcraft. Possuímos modelos Passeio, Retrô e Esporte.">
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="Bikcraft - Conheça as linhas Passeio, Retrô e Esporte">
-  <meta property="og:description" content="Compre a sua bicileta personalizada na Bikcraft. Possuímos modelos Passeio, Retrô e Esporte.">
-  <meta property="og:url" content="http://bikcraft.com/produtos.html">
-  <meta property="og:image" content="http://bikcraft.com/img/og-image.png">
-
-  <meta name="viewport" content="width=device-wifth, initial-scale=1">
-
-  <link rel="shortcut icon" href="favicon.ico">
-
-  <link rel="stylesheet" href="./css/styles-raw.css">
-  <script>document.documentElement.classList.add("js");</script>
-</head>
-
-<body>
-  <!-- header -->
-  <header class="header">
-    <div class="container">
-      <a href="index.html" class="grid-4">
-        <img src="img/bikcraft.svg" alt="Bikcraft">
-      </a>
-      <nav class="grid-12 header_menu">
-        <ul>
-          <li><a href="sobre.html">Sobre</a></li>
-          <li><a href="produtos.html " class="menu_ativo">Produtos</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="contato.html">Contato</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-  <!-- fecha header -->
+<!-- HEADER WORDPRESS -->
+<?php get_header(); ?>
+<!-- HEADER WORDPRESS -->
 
   <!-- introducao -->
   <section class="introducao-interna interna_produtos">
@@ -159,71 +122,8 @@
   </section>
   <!-- fecha orçamento -->
 
-  <!-- quebra -->
-  <section class="quebra">
-    <blockquote class="quote-externo container">
-      <p>"o verdadeiro segredo da felicidade está em ter um genuíno interesse por todos os detalhes da vida cotidiana."
-      </p>
-      <cite>WILLIAM MORRIS</cite>
-    </blockquote>
-  </section>
-  <!-- fecha quebra -->
-
-  <!-- footer -->
-  <footer>
-    <div class="footer">
-      <div class="container">
-
-        <div class="grid-8 footer_historia">
-          <h3>Nossa História</h3>
-          <p>O verdadeiro segredo da felicidade está em ter um genuíno interesse por todos os detalhes da vida
-            cotidiana.</p>
-        </div>
-        <div class="grid-4 footer_contato">
-          <h3>Contato</h3>
-          <ul>
-            <li>- 21 23232-4343</li>
-            <li>- contato@bikcraft.com</li>
-            <li>- Botafogo - RJ</li>
-          </ul>
-        </div>
-        <div class="grid-4 footer_redes">
-          <h3>Redes Socias</h3>
-          <ul>
-            <li>
-              <a href="http://facebook.com" target="_blank">
-                <img src="img/redes-sociais/facebook.svg" alt="Facebook">
-              </a>
-            </li>
-            <li>
-              <a href="http://instagram.com" target="_blank">
-                <img src="img/redes-sociais/instagram.svg" alt="Facebook">
-              </a>
-            </li>
-            <li>
-              <a href="http://twitter.com" target="_blank">
-                <img src="img/redes-sociais/twitter.svg" alt="Facebook">
-              </a>
-            </li>
-          </ul>
-        </div>
-
-      </div>
-    </div>
-
-    <div class="copy">
-      <div class="container">
-        <p class="grid-16">
-          Bikcraft 2020 - Alguns direitos reservados
-        </p>
-      </div>
-    </div>
-  </footer>
-  <!-- fecha footer -->
-  <script src="./js/simple-anime.js"></script>
-  <script src="./js/simple-form.js"></script>
-  <script src="./js/script.js"></script>
-
-</body>
+  <!-- FOOTER WORDPRESS -->
+  <?php get_footer(); ?>
+  <!-- FOOTER WORDPRESS -->
 
 </html>
