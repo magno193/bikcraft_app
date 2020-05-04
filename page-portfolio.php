@@ -2,9 +2,9 @@
 // Template Name: Portfolio
 get_header();
 ?>
-<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-	<?php include(TEMPLATEPATH . "/inc/introducao.php")?>
+		<?php include(TEMPLATEPATH . "/inc/introducao.php") ?>
 
 		<section class="container animar-interno">
 			<ul class="rslides">
@@ -31,9 +31,15 @@ get_header();
 			</ul>
 		</section>
 
-		<?php include(TEMPLATEPATH . "/inc/clientes-portfolio.php")?>
+		<section class="portfolio">
+			<div class="container">
+				<?php include(TEMPLATEPATH . "/inc/clientes-portfolio.php") ?>
+			</div>
+		</section>
 
-<?php endwhile; else: ?>
+
+	<?php endwhile;
+else : ?>
 	<p><?php _e('Sorry, no posts matched your criteria.'); ?></p>
 <?php endif; ?>
 <?php get_footer(); ?>
