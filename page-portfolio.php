@@ -31,7 +31,7 @@ get_header();
 			</ul>
 		</section>
 
-		<?php include(TEMPLATEPATH . "/inc/clientes-portfolio.php")>
+		<?php include(TEMPLATEPATH . "/inc/clientes-portfolio.php")?>
 
 <?php endwhile; else: ?>
 	<p><?php _e('Sorry, no posts matched your criteria.'); ?></p>
