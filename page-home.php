@@ -5,7 +5,7 @@ get_header();
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 		<section class="introducao">
 			<div class="container">
-				<h1>?<?php the_field('titulo_introducao') ?></h1>
+				<h1><?php the_field('titulo_introducao') ?></h1>
 				<blockquote class="quote-externo">
 					<p><?php the_field('quote_introducao') ?></p>
 					<cite><?php the_field('citacao_introducao') ?></cite>

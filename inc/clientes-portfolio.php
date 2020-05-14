@@ -9,7 +9,7 @@
 <?php endwhile; else : endif; ?>
 </ul>
 
-<?php (!is_page('portifolio')) { ?>
+<?php if(!is_page('portifolio')) { ?>
     <div class="call">
         <p><?php the_field('chamada_portfolio',$portfolio) ?></p>
         <a href="/portfolio/" class="btn">Portfólio</a>
