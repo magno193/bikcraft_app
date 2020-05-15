@@ -2,9 +2,10 @@
 // Template Name: Produtos
 get_header();
 ?>
-<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
-	<?php include(TEMPLATEPATH . "/inc/introducao.php")?>
+<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+	
+		<?php include(TEMPLATEPATH . "/inc/introducao.php"); ?>
 
 		<section class="container produto_item animar-interno">
 			<div class="grid-11">
@@ -97,7 +98,6 @@ get_header();
 				</div>
 			</div>
 		</section>
-<?php endwhile; else: ?>
-	<p><?php _e('Sorry, no posts matched your criteria.'); ?></p>
-<?php endif; ?>
+<?php endwhile; else: endif; ?>
+
 <?php get_footer(); ?>

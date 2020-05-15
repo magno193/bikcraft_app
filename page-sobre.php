@@ -2,9 +2,10 @@
 // Template Name: Sobre
 get_header();
 ?>
-<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-		<?php include(TEMPLATEPATH . "/inc/introducao.php") ?>
+<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+	
+		<?php include(TEMPLATEPATH . "/inc/introducao.php"); ?>
 
 		<section class="missao_sobre container animar-interno">
 			<div class="grid-10">
@@ -28,10 +29,7 @@ get_header();
 
 		</section>
 
-		<?php include(TEMPLATEPATH . "/inc/qualidade.php") ?>
-	<?php endwhile;
-else : ?>
-	<p><?php _e('Sorry, no posts matched your criteria.'); ?></p>
-<?php endif; ?>
+		<?php include(TEMPLATEPATH . "/inc/qualidade.php"); ?>
+<?php endwhile; else: endif; ?>
 
 <?php get_footer(); ?>

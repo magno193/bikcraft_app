@@ -110,8 +110,51 @@ include(TEMPLATEPATH . '/inc/introducao.php');
 	the_field('telefone', $contato)
 ?>
 
+Verificar se é a página
+
+if(is_page('sobre')) {
+
+}
+
+Não é a página
+if(!is_page('sobre')) {
+
+}
+
+
 15 - Terminar de adicionar os outros campos
 <?php echo date("Y"); ?> (Mostrar a data)
+
+
+// Altera css com um custom field
+<style type="text/css">
+  .titulo {
+    background-image: url(“<?php the_field(‘background’); ?>”);
+  }
+</style>
+
+// Mostrar imagens de tamanhos diferentes
+<?php
+$imagem_id = get_field(‘imagem’);
+$imagem_grande = wp_get_attachment_image_src( $imagem_id, ‘grande’ );
+$imagem_pequena = wp_get_attachment_image_src( $imagem_id, ‘pequena’ );
+?>
+
+<?php echo $imagem_grande[0]; ?>
+
+
+// Adicionar tamanhos de imagens
+function my_custom_sizes() {
+  add_image_size( ‘grande’, 1400, 460, true );
+  add_image_size( ‘pequena’, 360, 260, true );
+}
+add_action( 'after_setup_theme', 'my_custom_sizes' );
+
+large
+medium
+thumb
+
+
 
 16 - Adicionar campos para SEO
 <title><?php bloginfo('name'); ?> - <?php wp_title(''); ?> <?php the_field('title_seo'); ?></title>
